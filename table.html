@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scaled=1.0">
+        <link rel="icon" href="../day4 14-03-24/cells.png" type="icon/png">
+        <style>
+            table,th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>&#128512; Table Colspan & Rowspan &#128512;</h1>
+        <hr>
+        <h2><u>&#128866; Colspan Table &#128866;</u></h2>
+        <table>
+            <tr>
+                <th colspan="9" style="padding-left: 370px;">Employees</th>
+            </tr>
+            <tr>
+                <th>S.No</th>
+                <th>Employee Name</th>
+                <th>Employee ID</th>
+                <th>Position</th>
+                <th>Company Name</th>
+                <th>Boys Employees</th>
+                <th>Girls Employees</th>
+                <th>Salary</th>
+                <th rowspan="10">Software Companies</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><mark>Sai</mark></td>
+                <td>100</td>
+                <td>Full Stack Developer</td>
+                <td>TCS</td>
+                <td>300</td>
+                <td>450</td>
+                <td>35000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Anil</td>
+                <td>104</td>
+                <td>SAP</td>
+                <td>CGI</td>
+                <td>200</td>
+                <td><mark>150</mark></td>
+                <td><mark>40000</mark></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Maruti</td>
+                <td><mark>102</mark></td>
+                <td>Python Developer</td>
+                <td>Wipro</td>
+                <td>500</td>
+                <td>700</td>
+                <td>38000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pavan</td>
+                <td>110</td>
+                <td>Testing</td>
+                <td>Future Tech</td>
+                <td>640</td>
+                <td>580</td>
+                <td>25000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><mark>Aravind</mark></td>
+                <td>101</td>
+                <td><mark>Data Science</mark></td>
+                <td>Global Data</td>
+                <td>640</td>
+                <td><mark>378</mark></td>
+                <td>45000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Kumar</td>
+                <td>103</td>
+                <td>Javascript Developer</td>
+                <td>Fission Labs</td>
+                <td><mark>897</mark></td>
+                <td>567</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Gopi</td>
+                <td>105</td>
+                <td>Frontend Developer</td>
+                <td><mark>Infosys</mark></td>
+                <td>679</td>
+                <td>900</td>
+                <td>34000</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><mark>Kalyan</mark></td>
+                <td>106</td>
+                <td>Backend Developer</td>
+                <td>Optum</td>
+                <td>800</td>
+                <td>698</td>
+                <td>37000</td>
+            </tr>
+        </table>
+        <br /><br />
+
+        <h2><u>&#128878; Rowspan &#128878;</u></h2>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Course Name</th>
+                <th>Fees</th>
+                <th>Duration</th>
+                <th rowspan="8">Coaching Details</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Gopi</td>
+                <td>204</td>
+                <td><mark>HTML5</mark></td>
+                <td>3000</td>
+                <td>3 Months</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><mark>Sai</mark></td>
+                <td>200</td>
+                <td>Full Stack</td>
+                <td>20000</td>
+                <td>8 Months</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Anil</td>
+                <td>202</td>
+                <td>SAP</td>
+                <td><mark>18000</mark></td>
+                <td>6 Months</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Maruti</td>
+                <td>205</td>
+                <td>Pega</td>
+                <td>20000</td>
+                <td><mark>8 Months</mark></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Shiva</td>
+                <td><mark>201</mark></td>
+                <td>Java</td>
+                <td>6000</td>
+                <td>6 Months</td>
+            </tr>
+            <tr>
+                <td><mark>6</mark></td>
+                <td>Pavan</td>
+                <td>203</td>
+                <td>Python</td>
+                <td>4000</td>
+                <td>4 Months</td>
+            </tr>
+        </table>
+    </body>
+</html>
